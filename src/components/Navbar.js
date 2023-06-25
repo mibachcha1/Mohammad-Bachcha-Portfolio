@@ -57,6 +57,16 @@ export default function Navbar() {
                     >
                         Skills
                     </Link>
+
+                    <a
+                        href="./Mohammad-Bachcha-Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={closeMenu}
+                        className="mr-5 hover:text-white cursor-pointer"
+                    >
+                        Resume
+                    </a>
                 </nav>
 
                     {!isMenuOpen && (

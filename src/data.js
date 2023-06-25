@@ -28,7 +28,7 @@ export const projects = [
     description:
       "Developed a portfolio website using React to showcase my skills, projects, and achievements. Utilized Netlify for seamless deployment and hosting. Also utilized Tailwind CSS to streamline the styling process, resulting in an engaging and visually appealing user interface.",
       image: "./portfolio.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/mibachcha1/Mohammad-Bachcha-Portfolio.git",
   },
 ];
 
