@@ -36,7 +36,7 @@ export default function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=Chicago,+Jefferson+Park,+IL+60630,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        src="https://www.google.com/maps/embed/v1/place?q=Chicago,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
                     <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div class="lg:w-2/6 px-6 border-r-2 border-gray-700">
@@ -44,8 +44,7 @@ export default function Contact() {
                                 ADDRESS
                             </h2>
                             <p className="mt-1">
-                                Chicago, IL <br />
-                                60630
+                                Chicago, IL
                             </p>
                         </div>
                         <div class="lg:w-4/6 px-6 mt-4 lg:mt-0">
@@ -74,7 +73,7 @@ export default function Contact() {
                         Let's Work Together
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Please feel free to reach out to me with any inquiries or concerns; I would be delighted to assist you.
+                        Please feel free to reach out to me with any inquiries or concerns; I would be delighted to speak with you.
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">
