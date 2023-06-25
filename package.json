@@ -13,7 +13,8 @@
     "react-particles": "^2.9.3",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.8.9",
-    "tsparticles": "^2.9.3"
+    "tsparticles": "^2.9.3",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "craco start",
