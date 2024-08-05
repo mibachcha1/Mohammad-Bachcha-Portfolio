@@ -7,7 +7,8 @@ const ImageWithCircleCrop = ({ imageUrl }) => {
         className="w-full h-full object-cover"
         style={{
           backgroundImage: `url(${imageUrl})`,
-          backgroundSize: "cover",
+          resizeMode: "contain",
+          // backgroundRepeat: "no-repeat",
           backgroundPosition: "center 1100px",
           borderRadius: "50%",
         }}

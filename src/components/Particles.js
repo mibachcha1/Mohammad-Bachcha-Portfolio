@@ -83,7 +83,7 @@ const ParticlesComponent = () => {
             </Link>
           </div>
         </div>
-        <ImageWithCircleCrop imageUrl="./me.png" />
+        <ImageWithCircleCrop imageUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sample_code_icon.svg/1200px-Sample_code_icon.svg.png" />
       </div>
 
 
@@ -108,7 +108,7 @@ const ParticlesComponent = () => {
                 enable: true,
                 minimumValue: 0.5,
               },
-              value: 1.4,
+              value: 2,
             },
             color: {
               value: "#f1f1f1",
