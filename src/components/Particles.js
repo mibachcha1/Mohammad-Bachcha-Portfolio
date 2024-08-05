@@ -6,7 +6,7 @@ import { loadFull } from "tsparticles";
 import ImageWithCircleCrop from "./ImageWithCircleCrop";
 
 const ParticlesComponent = () => {
-    const [typedText, setTypedText] = useState("");
+  const [typedText, setTypedText] = useState("");
   const [showParticles, setShowParticles] = useState(false);
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const ParticlesComponent = () => {
             dangerouslySetInnerHTML={{ __html: typedText.replace(/\n/g, "<br />") }}>
           </h1>
           <p className="mb-8 leading-relaxed">
-          I am a highly skilled Computer Science professional, passionate and dedicated to delivering impactful software solutions.
+            I am a highly skilled Computer Science professional, passionate and dedicated to delivering impactful software solutions.
           </p>
           <div className="flex justify-center">
             <Link
@@ -98,7 +98,7 @@ const ParticlesComponent = () => {
           background: {
             color: "rgb(10,10,25)",
           },
-          fpsLimit: 60,
+          fpsLimit: 120,
           particles: {
             shape: {
               type: "star",
@@ -116,7 +116,7 @@ const ParticlesComponent = () => {
             number: {
               density: {
                 enable: true,
-                area: 1080,
+                area: 3000,
               },
               limit: 0,
               value: 800,
